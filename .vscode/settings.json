@@ -175,5 +175,9 @@
     "pcss",
     "postcss"
   ],
-  "chat.mcp.access": "all"
+  "chat.mcp.access": "all",
+  "cSpell.words": [
+    "deepwiki",
+    "gitingest"
+  ]
 }

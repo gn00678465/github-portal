@@ -7,5 +7,11 @@
   },
   "trigger": {
     "message": "使用以下方式開啟..."
+  },
+  "open_in_deepwiki": {
+    "message": "在 DeepWiki 中開啟"
+  },
+  "open_in_gitingest": {
+    "message": "在 GitIngest 中開啟"
   }
 }

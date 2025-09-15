@@ -7,5 +7,11 @@
   },
   "trigger": {
     "message": "Open with..."
+  },
+  "open_in_deepwiki": {
+    "message": "Open in DeepWiki"
+  },
+  "open_in_gitingest": {
+    "message": "Open in GitIngest"
   }
 }
