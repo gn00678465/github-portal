@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Github Portal"
+  },
+  "extDescription": {
+    "message": "A browser extension to open GitHub repositories in Deepwiki or GitIngest."
+  },
+  "trigger": {
+    "message": "Open with..."
+  }
+}

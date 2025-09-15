@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Github 傳送門"
+  },
+  "extDescription": {
+    "message": "這是一款瀏覽器擴充功能，讓你在 GitHub 專案頁面中快速開啟 Deepwiki 或 GitIngest。"
+  },
+  "trigger": {
+    "message": "使用以下方式開啟..."
+  }
+}
