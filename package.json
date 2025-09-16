@@ -1,7 +1,7 @@
 {
   "name": "github-portal",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
   "description": "manifest.json description",
@@ -34,12 +34,16 @@
     "@tailwindcss/vite": "^4.1.13",
     "@types/react": "^19.1.12",
     "@types/react-dom": "^19.1.9",
+    "@types/yargs": "^17.0.33",
     "@wxt-dev/module-react": "^1.1.5",
     "eslint": "^9.35.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "tailwindcss": "^4.1.13",
+    "tsx": "^4.20.5",
     "typescript": "^5.9.2",
-    "wxt": "^0.20.11"
+    "web-ext": "^8.9.0",
+    "wxt": "^0.20.11",
+    "yargs": "^18.0.0"
   }
 }

@@ -27,3 +27,7 @@ web-ext.config.ts
 *.sw?
 
 extension-key.pem
+web-ext-artifacts
+.env
+.env.local
+.env.*.local
