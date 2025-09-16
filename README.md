@@ -97,6 +97,11 @@ pnpm lint:fix
 pnpm compile
 ```
 
+### Firefox 簽名
+```bash
+pnpm tsx scripts/sign.ts --api-key <AMO_API_ISSUER> --api-secret <AMO_API_SECRET>
+```
+
 ## 🎯 使用方式
 
 1. 在瀏覽器中安裝擴充功能
