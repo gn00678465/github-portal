@@ -29,4 +29,15 @@ export default defineBackground(() => {
 
     return true
   })
+
+  // 檢測可用的 API
+  const actionAPI = browser.action || browser.browserAction
+
+  if (actionAPI.onClicked) {
+    actionAPI.onClicked.addListener((tab) => {
+      if (tab.url?.includes('newtab') || tab.url?.includes('blank')) {
+        browser.tabs.update(tab.id, { url: 'https://github.com' })
+      }
+    })
+  }
 })
