@@ -4,6 +4,9 @@ type Message = {
 } | {
   action: 'redirect:gitingest'
   url: string
+} | {
+  action: 'redirect:codewiki'
+  url: string
 }
 
 interface Response {
@@ -22,6 +25,11 @@ export default defineBackground(() => {
       }
       case 'redirect:gitingest': {
         const newUrl = message.url.replace('github.com', 'gitingest.com')
+        sendResponse({ url: newUrl })
+        break
+      }
+      case 'redirect:codewiki': {
+        const newUrl = message.url.replace('github.com', 'codewiki.google/github.com')
         sendResponse({ url: newUrl })
         break
       }

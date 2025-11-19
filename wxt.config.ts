@@ -23,9 +23,15 @@ export default defineConfig({
         ? {
             id: import.meta.env.WXT_EXTENSION_ID,
             strict_min_version: '109.0',
+            data_collection_permissions: {
+              required: ["none"]
+            }
           }
         : {
             strict_min_version: '109.0',
+            data_collection_permissions: {
+              required: ["none"]
+            }
           },
     },
   }),
