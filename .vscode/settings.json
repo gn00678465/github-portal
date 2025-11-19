@@ -36,7 +36,8 @@
   "chat.detectParticipant.enabled": true,
   "chat.promptFiles": true,
   "chat.promptFilesLocations": {
-    ".github/prompts": true
+    ".github/prompts": true,
+    ".github/copilot-common/prompts": true
   },
   "github.copilot.chat.languageContext.typescript.enabled": true,
   "github.copilot.chat.agent.thinkingTool": true,
@@ -84,13 +85,7 @@
   // GitHub Copilot Chat - 自訂 Git Commit 訊息提示
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-      "file": ".github/copilot-commit-message-instructions.md"
-    },
-    {
-      "text": "# Use Conventional Commits 1.0.0 for commit messages."
-    },
-    {
-      "text": "請一律使用正體中文來撰寫記錄"
+      "file": ".github/copilot-common/instructions/commit-message-generation.instructions.md"
     }
   ],
   // GitHub Copilot Chat - 自訂 Pull Request 描述提示
